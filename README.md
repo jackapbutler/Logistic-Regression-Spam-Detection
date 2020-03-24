@@ -9,3 +9,9 @@ We can see from the above plot the curve rises sharply to the top left before sm
 approximately 80% true positive rate the model has a corresponding 10% false positive rate. The area under
 the curve for our ﬁnal model is equal to 0.90204.
 
+The threshold value, in this context, determines the probability with which the model will classify an email
+as spam. For example, if this threshold is set to 0.5, all emails with a predicted probability of spam higher
+than 0.5 will be classiﬁed as spam. The statistically optimal threshold is the value that maximises the sum of Sensitivity and Speciﬁcity. We can see from the above graph that the threshold value which maximises the sum of Sensitivity and Speci
+ﬁcity is approximately 0.3433.
+![Image of framework](https://github.com/jackapbutler/Logistic-Regression-Spam-Detection/blob/master/Elements/threshold_max.PNG)
+
